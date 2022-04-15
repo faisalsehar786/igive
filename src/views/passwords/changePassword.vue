@@ -121,10 +121,7 @@ ion-input {
     ;
     --placeholder-color: rgb(0, 0, 0);
     ;
-   
-  
-  
-  
+     --padding-start:0px;
     font-family: "Gilroy Medium";
     font-size: 14px;
 

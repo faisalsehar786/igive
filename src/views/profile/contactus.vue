@@ -95,7 +95,7 @@ export default defineComponent({
   padding-inline: 1rem;
   
     font-weight: 600;
-  opacity:2.4;
+opacity: 0.5;
 }
 ion-input {
     --background: rgba(239, 242, 246, 0.6);
@@ -114,6 +114,7 @@ ion-input {
     font-weight: 400;
     mix-blend-mode: normal;
     margin-top: 11.05px;
+    opacity: 0.5;
     
 }
 
@@ -125,7 +126,7 @@ ion-textarea {
     ;
     --placeholder-color: rgba(0, 0, 0, 0.5);
       border: 0px solid rgba(0, 0, 0, 0.05);
-
+opacity: 0.5;
     width: 100%;
     border-radius: 8px;
     font-family: "Gilroy Medium";
