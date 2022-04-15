@@ -219,11 +219,23 @@ ion-tabs ion-tab-button,.ion-text-medium,.gilory-medium,.ion-text-12,.help--cont
 }
 
 .ion-toggle-height{
-  width: 60px !important
-  ;
-    height: 26px  !important
-    ;
+  --handle-height:15px;
+  --handle-border-radius:90%;
+  width: 35px !important;
+  height: 18px !important;
+  --handle-spacing:4px;
+  --handle-width:16px;
 }
+
+ion-toggle{
+  --handle-border-radius:90%;
+  --handle-height:15px;
+  width: 30px !important;
+  height: 18px !important;
+  --handle-spacing:4px;
+  --handle-width:25px;
+}
+
 
 .profile-page .ion-padding-half{
   padding: 0.5rem 0.5rem 0.1rem 0.5rem;
