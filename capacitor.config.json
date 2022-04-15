@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "igive",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}

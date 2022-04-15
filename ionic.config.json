@@ -1,0 +1,8 @@
+{
+  "name": "igive",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue",
+  "id": "a51960d4"
+}
