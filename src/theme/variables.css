@@ -176,39 +176,39 @@ ion-segment-button {
 }
 
 .ion-text-muted{
-  font-weight: 600;
+  /* //font-weight: 600; */
   font-family: 'Gilroy-Medium' !important;
 }
 .ion-text-black 
 {
-  font-weight: 600;
+  /* font-weight: 600; */
   font-family: 'Gilroy-Medium' !important;
 }
 
 .ion-text-xxsmall{
-  font-weight: 600;
+  /* font-weight: 600; */
   font-family: 'Gilroy-Medium' !important;
 }
 
 .ion-line-height{
-  font-weight: 600;
+  /* font-weight: 600; */
   font-family: 'Gilroy-Medium' !important;
 }
 .onboardinH3{
-  font-weight: 600; 
+  /* font-weight: 600;  */
   font-family: 'Gilroy-Medium' !important;
 }
 .text-grey,.text-color-muted{
-  font-weight: 600;
+  /* font-weight: 600; */
   font-family: 'Gilroy-Medium' !important;
 }
 
 .ion-text-small,.wellcome_text,.signup_text,.termsCondtext,.ion-font-400,.ion-font-family-product,.card-content-ios p,ion-input{
-  font-weight: 600 !important;
+  /* font-weight: 600 !important; */
   font-family: 'Gilroy-Medium' !important;
 }
 ion-tabs ion-tab-button,.ion-text-medium,.gilory-medium,.ion-text-12,.help--continar ion-accordion,.ion-title,.ion-text-xsmall,.gilory-bold{
-  font-weight: 600; 
+  /* font-weight: 600;  */
   font-family: 'Gilroy-Medium' !important;
 }
 
