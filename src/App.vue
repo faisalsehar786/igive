@@ -5,14 +5,25 @@
 </template>
 
 <script lang="ts">
-import { IonApp, IonRouterOutlet } from '@ionic/vue';
-import { defineComponent } from 'vue';
+import { IonApp, IonRouterOutlet } from "@ionic/vue";
+import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: 'App',
+  name: "App",
   components: {
     IonApp,
-    IonRouterOutlet
-  }
+    IonRouterOutlet,
+  },
 });
 </script>
+<style>
+ion-app {
+  font-family: Gilroy-Medium !important;
+}
+ion-content {
+  font-family: Gilroy-Medium;
+}
+ion-toolbar {
+  font-family: Gilroy-Medium;
+}
+</style>

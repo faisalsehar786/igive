@@ -1,8 +1,14 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router';
+import VOtpInput from "vue3-otp-input";
+import MessagePopup from './components/MessagePopup.vue'
+import BaseLayout from './layouts/base-layout.vue'
 
-import { IonicVue } from '@ionic/vue';
+
+import { IonicVue, IonGrid, IonRow, IonCol, IonCard, IonCardContent } from '@ionic/vue';
+
+import '../public/css/index.scss'
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/vue/css/core.css';
@@ -26,7 +32,12 @@ import './theme/variables.css';
 const app = createApp(App)
   .use(IonicVue)
   .use(router);
-  
-router.isReady().then(() => {
-  app.mount('#app');
+
+router.isReady().then(() =>
+{
+  app.component('v-otp-input', VOtpInput)
+    .component('ion-grid', IonGrid).component('ion-row', IonRow)
+    .component('ion-card', IonCard).component('ion-card-content', IonCardContent)
+    .component('ion-col', IonCol).component('app-success', MessagePopup)
+    .component('base-layout', BaseLayout).mount('#app');
 });

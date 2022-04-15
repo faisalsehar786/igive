@@ -1,0 +1,25 @@
+.navBar{
+    --background: unset;
+    display: flex;
+
+    &__image  { 
+        background-color: #80dcf8;
+    }
+
+    &--padding{
+        padding-inline: 1.5rem;
+        padding-top: .5rem;
+    }
+
+    &--subTitle{
+        font-size: 12px;
+    }
+
+    &__title { 
+        margin: unset;
+    }
+
+    &--back { 
+        margin-top: 5px
+    }
+}

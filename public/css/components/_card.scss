@@ -1,0 +1,53 @@
+.card{
+        background: #FFFFFF;
+        box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.15);
+        border-radius: 15px;
+    &__content {
+        padding: unset;
+
+        & img{
+            width: 100%;
+        }
+        
+        &--vendor{
+            padding-inline: 1rem;
+        }
+
+        &--vendor h2 {
+            font-size: 20px;
+            font-weight: bold;
+            color : black;
+        }
+
+        &--vendor p {
+            font-size: 14px;
+            margin-bottom: 1rem;
+        }
+
+        &--description{
+            line-height: 20px;
+        }
+    }
+}
+
+.card__numbers{
+    display: flex;
+    overflow: auto;
+    justify-content: space-between;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    &--item{
+        height : 48px;
+        width : 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        background: #FFFFFF;
+        border: 1px solid #EBF0FF;
+        box-sizing: border-box;
+        border-radius: 50%;
+    }
+}

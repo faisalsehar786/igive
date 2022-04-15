@@ -1,0 +1,188 @@
+.ion-title{
+    font-size: 26px;
+    font-family : Gilroy-bold;
+    margin : unset;
+    color :#001B5C;
+}
+
+.ion-subTitle{
+    font-family : Gilroy-Medium;
+    font-size: 20px;
+    line-height: 22px;
+    color: #001B5C;
+}
+
+.ion-background-primary{
+    --background: $color-primary;
+    background : $color-primary;
+}
+
+.ion-background-secondary{
+    --background: $color-secondary;
+    background : $color-secondary;
+}
+
+.ion-background-white{
+    background: white !important;
+    --background: white !important;
+}
+
+.ion-footer-height{
+    height: 20rem;
+}
+
+.ion-text-bold{ 
+    font-weight: bold;
+}
+
+.ion-text-500 { 
+    font-weight: 500;
+}
+
+.ion-margin-unset{ 
+    margin : unset;
+}
+
+.ion-padding-unset{ 
+    padding : unset;
+}
+
+.ion-text-black{ 
+    color : black !important;
+}
+
+.ion-padding-half { 
+    padding : .5rem
+}
+
+.ion-text-primary{
+    color : $color-primary;
+}
+
+.ion-text-secondary{
+    color : $color-secondary;
+}
+
+.ion-text-white{ 
+    color : white;
+}
+
+.ion-text-small {
+    font-size: $text-small;
+}
+
+.ion-text-xxsmall {
+    font-size: $text-xxsmall;
+}
+
+.ion-text-xsmall {
+    font-size: $text-xsmall !important;
+}
+
+.ion-text-medium {
+    font-size: $text-medium !important;
+}
+
+.ion-text-large {
+    font-size: $text-large !important;
+}
+
+.ion-line-height{
+    line-height: 22px
+}
+
+.ion--toggle {
+    height: 20px;
+    width: 40px;
+    --handle-width: calc(20px - (2px * 2));
+}
+
+.ion-text-danger{
+    color : red
+}
+
+.ion-position-absolute { 
+    position : absolute;
+}
+
+.ion-position-static { 
+    position : static;
+}
+
+.ion-text-muted{ 
+    color: #575858;
+    opacity: 0.5;
+}
+
+.ion-image-radius {
+    border-radius : 1rem;
+}
+
+.ion-flex-between{ 
+    display : flex;
+    justify-content: space-between;
+}
+
+.ion-divider{
+    min-height : 1px
+}
+.ion-width-75 { 
+    width : 75%;
+} 
+.ion-margin-auto{ 
+    margin : auto;
+}
+
+.ion-mt-75{
+    margin-top: 75px;
+}
+
+.ion-padding-twice{ 
+    padding: 32px;
+}
+
+.ion-display-block{ 
+    display :block;
+}
+
+.ion-full-width { 
+    width: 100%;
+}
+.ion-full-height { 
+    height: 100%;
+}
+.ion-flex{
+    display: flex;
+}
+
+.ion-font-400{
+    font-weight: 400;
+}
+.ion-font-family-product{
+    font-family: 'Product Sans';
+}
+
+.ion-mt-10{
+    margin-top : 10px !important
+}
+
+
+.text-weight-700{
+    font-weight: 700;
+}
+
+.ion-text-24{ 
+    font-size: 24px;
+}
+.ion-text-12{
+    font-size: 12px;
+}
+
+.ion-position-relative{ 
+   position: relative; 
+}
+
+.ion-grid-center{ 
+    display :grid; 
+    place-content: center;
+}

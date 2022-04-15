@@ -1,0 +1,15 @@
+.backdrop{
+    position: fixed; /* Stay in place */
+    z-index: 11; /* Sit on top */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+
+.buttons--wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1rem;
+    margin-top: 2rem;
+}

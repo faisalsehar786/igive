@@ -1,8 +1,7 @@
 {
-  "name": "igive",
+  "name": "webShop",
   "integrations": {
     "capacitor": {}
   },
-  "type": "vue",
-  "id": "a51960d4"
+  "type": "vue"
 }

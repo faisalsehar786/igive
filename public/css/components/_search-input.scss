@@ -1,0 +1,22 @@
+.ion-search .searchbar-input-container{
+    height : 50px;
+    // --border-radius: 25px;
+    --background: #F5F5F5;
+    mix-blend-mode: normal;
+    // opacity: 0.15;
+    --border-radius: 51px;
+    --placeholder-opacity : 0.5
+}
+
+.searchbar-left-aligned.sc-ion-searchbar-ios-h .searchbar-input.sc-ion-searchbar-ios{
+    padding-inline-start: 50px;
+}
+
+.searchbar-left-aligned.sc-ion-searchbar-ios-h .searchbar-search-icon.sc-ion-searchbar-ios{
+    margin-inline-start :12px
+}
+
+.ion-search .searchbar-search-icon.sc-ion-searchbar-ios{
+    --icon-color : #5a2aae;
+    // opacity: 1;
+}

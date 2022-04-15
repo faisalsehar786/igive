@@ -1,0 +1,117 @@
+@import './pages/onboarding';
+
+@import './pages/auth/register';
+
+@import './pages/auth/auth';
+
+@import './pages/verification';
+
+@import './pages/auth/passwords';
+
+@import './pages/home';
+
+@import './components/button';
+
+@import './components/input';
+
+@import './components/search-input';
+
+@import './components/card';
+
+@import './components/switch';
+
+@import './components/backdrop';
+
+@import './components/navBar';
+
+@import './sass-utils/heplers';
+
+@import './pages/profile';
+
+@font-face{
+    font-family: Gilroy-Medium;
+    src: url('../assets/fonts/Gilroy-Medium.ttf');
+}
+
+@font-face{
+    font-family: Gilroy-bold;
+    src: url('../assets/fonts/Gilroy-Bold.ttf');
+}
+
+@font-face{
+    font-family: Gilroy-Regular;
+    src: url('../assets/fonts/Gilroy-Regular.ttf');
+}
+
+:root {
+    font-size: 16px;
+}
+
+.gilory-medium{
+    font-family: Gilroy-Medium
+}
+
+.gilory-bold{ 
+    font-family: Gilroy-bold;
+}
+
+.text-grey{
+    color : #A7ABB5;
+}
+
+::placeholder{
+    color: rgba(0, 0, 0,);
+}
+
+.ion-toggle {
+    width: 32px;
+    height: 16px;
+    --handle-height: 12px;
+    --handle-width: 12px;
+}
+
+.otp-input-wrapper{
+    width: 100%;
+    height: 50px;
+    font-size: 1rem;
+    background: rgba(239, 242, 246, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    color : black !important;
+    margin-top: 2rem;
+
+}
+.otp-input {
+    width: 55px;
+    height: 40px;
+    padding: 5px;
+    margin: 5px 10px;
+    font-size: 20px;
+    border : none;
+    background: rgba(239, 242, 246, -0.6);
+    opacity: 0.8;
+    mix-blend-mode: normal;
+    text-align: center;
+    &:focus{
+        outline: none;
+    }
+  }
+
+.header-md::after{
+    background-image : unset;
+}
+
+.footer-md::before{
+    background-image : unset;
+}
+
+.ion-accordion-toggle-icon {
+    height: 20px !important;
+  }
+
+.toolbar-background-primary{
+--background-color: rgba(0, 27, 92, 1) !important;
+--background: rgba(0, 27, 92, 1)!important;
+}
